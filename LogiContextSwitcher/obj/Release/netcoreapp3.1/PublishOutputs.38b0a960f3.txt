@@ -1,0 +1,14 @@
+C:\Users\jjones\Downloads\LogiContextSwitcher\LogiContextSwitcher.exe
+C:\Users\jjones\Downloads\LogiContextSwitcher\LogiContextSwitcher.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\LogiContextSwitcher.deps.json
+C:\Users\jjones\Downloads\LogiContextSwitcher\LogiContextSwitcher.runtimeconfig.json
+C:\Users\jjones\Downloads\LogiContextSwitcher\LogiContextSwitcher.pdb
+C:\Users\jjones\Downloads\LogiContextSwitcher\Azure.Core.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\Azure.Identity.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\Azure.Security.KeyVault.Secrets.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\Microsoft.Identity.Client.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\Newtonsoft.Json.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\System.Memory.Data.dll
+C:\Users\jjones\Downloads\LogiContextSwitcher\System.Text.Encodings.Web.dll
