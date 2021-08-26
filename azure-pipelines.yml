@@ -25,7 +25,7 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.csproj'
-    arguments: '/target:publish  /p:OutputPath="$(build.ArtifactStagingDirectory)\Publish\\"'
+    arguments: '/target:publish  /p:OutputPath="$(build.ArtifactStagingDirectory)\Publish\"'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
@@ -35,6 +35,6 @@ steps:
     
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)\Publish\\'
-    ArtifactName: 'drop'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\Publish\'
+    ArtifactName: 'LogiContextSwitcher'
     publishLocation: 'Container'
