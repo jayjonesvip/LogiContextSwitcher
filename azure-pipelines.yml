@@ -31,6 +31,7 @@ steps:
   displayName: 'Build/Publish'
   inputs:
     command: 'publish'    
+    projects: '.\LogiContextSwitcher\LogiContextSwitcher.csproj'
     feedsToUse: 'select'
     arguments: '--configuration release -p:Platform=$(buildPlatform) --output $(build.artifactStagingDirectory)'
     zipAfterPublish: True
