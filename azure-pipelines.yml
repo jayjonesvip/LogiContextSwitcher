@@ -21,20 +21,16 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+    arguments: '/target:publish  /p:OutputPath="$(build.ArtifactStagingDirectory)\Publish\\"'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-
-- task: DotNetCoreCLI@2
-  displayName: 'Build/Publish'
-  inputs:
-    command: 'publish'    
-    projects: 'LogiContextSwitcher.csproj'
-    feedsToUse: 'select'
-    arguments: '--configuration release -p:Platform=$(buildPlatform) --output $(build.artifactStagingDirectory)'
-    zipAfterPublish: True
 
     
 - task: PublishBuildArtifacts@1
