@@ -1,0 +1,11 @@
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\bin\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.deps.json
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\bin\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.runtimeconfig.json
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\bin\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.runtimeconfig.dev.json
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.ContextSwitcher.resources
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.csproj.GenerateResource.cache
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.AssemblyInfoInputs.cache
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.AssemblyInfo.cs
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.genruntimeconfig.cache
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.dll
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Release\netcoreapp3.1\win-x86\LogiContextSwitcher.pdb

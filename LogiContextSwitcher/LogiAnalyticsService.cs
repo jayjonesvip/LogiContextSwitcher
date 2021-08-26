@@ -46,6 +46,10 @@ namespace LogiContextSwitcher
 	        _clientAuthToken = "YzJhZDE0MTgtM2QxYS00Mzg4LWEyMTYtOTY2OTBlZWJjNTQwOklWSzNZOG5GdGJKZjVSa0h2VVNUZ2xIM0tHZVc3ZGxZeWozTA==";
         }
 
+        public string GetConnString()
+        {
+            return _keyVaultService.GetSecret("SMPortalProd");
+        }
 
         public static class VPNCheck
         {
@@ -118,7 +122,7 @@ namespace LogiContextSwitcher
                 }
             }
 
-            return $"You context has been successfully switched to {groupCode.ToUpper()}!";
+            
         }
 
 
