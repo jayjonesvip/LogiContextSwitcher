@@ -87,3 +87,5 @@ C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Debug\n
 C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Debug\netcoreapp3.1\LogiContextSwitcher.dll
 C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Debug\netcoreapp3.1\LogiContextSwitcher.pdb
 C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Debug\netcoreapp3.1\LogiContextSwitcher.genruntimeconfig.cache
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Debug\netcoreapp3.1\LogiContextSwitcher.csprojAssemblyReference.cache
+C:\Users\jjones\Source\Repos\LogiContextSwitcher\LogiContextSwitcher\obj\Debug\netcoreapp3.1\LogiContextSwitcher.Properties.Resources.resources

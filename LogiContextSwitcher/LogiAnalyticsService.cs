@@ -51,16 +51,13 @@ namespace LogiContextSwitcher
             return _keyVaultService.GetSecret("SMPortalProd");
         }
 
-        public static class VPNCheck
+        public bool VpnCheck()
         {
-            public static bool IsOn()
-            {
-                var ok = NetworkInterface.GetAllNetworkInterfaces().ToList();
 
-                return ((NetworkInterface.GetIsNetworkAvailable())
-                        && NetworkInterface.GetAllNetworkInterfaces()
-                            .FirstOrDefault(ni => ni.Description.Contains("spendmend-prod"))?.OperationalStatus == OperationalStatus.Up);
-            }
+               return ((NetworkInterface.GetIsNetworkAvailable())
+                    && NetworkInterface.GetAllNetworkInterfaces()
+                        .FirstOrDefault(ni => ni.Description.Contains("spendmend-prod"))?.OperationalStatus == OperationalStatus.Up);
+            
         }
 
 
@@ -113,7 +110,7 @@ namespace LogiContextSwitcher
 
                 catch (Exception ex)
                 {
-                    if (!VPNCheck.IsOn())
+                    if (!VpnCheck())
                     {
                         return "Please connect to the SpendMend VPN first..";
                     }
