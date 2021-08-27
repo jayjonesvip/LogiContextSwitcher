@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jjones\\Source\\Repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj": {}
+    "C:\\Users\\jjones\\source\\repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jjones\\Source\\Repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj": {
+    "C:\\Users\\jjones\\source\\repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jjones\\Source\\Repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj",
+        "projectUniqueName": "C:\\Users\\jjones\\source\\repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj",
         "projectName": "LogiContextSwitcher",
-        "projectPath": "C:\\Users\\jjones\\Source\\Repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj",
+        "projectPath": "C:\\Users\\jjones\\source\\repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj",
         "packagesPath": "C:\\Users\\jjones\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jjones\\Source\\Repos\\LogiContextSwitcher\\LogiContextSwitcher\\obj\\",
+        "outputPath": "C:\\Users\\jjones\\source\\repos\\LogiContextSwitcher\\LogiContextSwitcher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

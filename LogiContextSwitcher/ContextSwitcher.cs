@@ -71,7 +71,7 @@ namespace LogiContextSwitcher
 
             using (SqlConnection connection = new SqlConnection(conn))
             {
-                var sql = "SELECT GroupName, GroupCode FROM smsys.CustomerGroups order by GroupName asc";
+                var sql = "SELECT LTRIM(RTRIM([Name])) as GroupName, LTRIM(RTRIM([GroupCode])) as GroupCode FROM [OnBase].[hsi].[rm_DVCustomerSILOGroups] WHERE GroupCode IS NOT NULL order by [Name] asc";
                 var customerGroups = new List<CustomerGroups>();
 
                 using (var command = new SqlCommand(sql, connection))

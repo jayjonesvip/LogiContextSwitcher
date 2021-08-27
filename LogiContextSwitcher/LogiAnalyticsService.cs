@@ -48,7 +48,8 @@ namespace LogiContextSwitcher
 
         public string GetConnString()
         {
-            return _keyVaultService.GetSecret("SMPortalProd");
+            var connString =  _keyVaultService.GetSecret("sql03Connection");
+            return connString;
         }
 
         public bool VpnCheck()

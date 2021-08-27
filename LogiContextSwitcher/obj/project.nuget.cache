@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8DTFyRE+e6TxDxybwCvbH3IPMXsFB98vi39jVrCDtODiSBvmCTDaqe0fF/LrEG3HZbmp9EzMM3Kesa8ONHloTg==",
+  "dgSpecHash": "QikEH/ZwM8zlea+J0U9jkJ9Z/8uHkJ9c+ekMPsrQvfnmzyrxzRtcMqHyqxNTptk4HmPpx/xwpLqG8RU+Fe+Ybw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjones\\Source\\Repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj",
+  "projectFilePath": "C:\\Users\\jjones\\source\\repos\\LogiContextSwitcher\\LogiContextSwitcher\\LogiContextSwitcher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjones\\.nuget\\packages\\azure.core\\1.15.0\\azure.core.1.15.0.nupkg.sha512",
     "C:\\Users\\jjones\\.nuget\\packages\\azure.identity\\1.4.0\\azure.identity.1.4.0.nupkg.sha512",
